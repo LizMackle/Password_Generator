@@ -14,6 +14,7 @@ To randomly generate a password that meets certain criteria, so that it can crea
 4. Password is displayed in the text box
 
 ## Git Hub Respository 
+https://github.com/LizMackle/Password_Generator
 
-## Published Page 
+## 💻 [Published Page](https://lizmackle.github.io/Password_Generator/)
 ![Published page screenshot](https://user-images.githubusercontent.com/93589073/148010003-41d5eee7-9235-4948-90c6-20896ec8b111.PNG)
