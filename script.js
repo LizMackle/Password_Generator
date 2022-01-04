@@ -1,3 +1,16 @@
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+  passwordText.value = password;
+}
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
 // characters able to be used within password string / declaring variables
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -9,7 +22,7 @@ const textareaPassword = document.getElementById("textarea-password");
 function generatePassword() {
   // user prompted to choose desired password length (between 8 - 128)
   // password length is defined below
-  var passwordLength = prompt("Enter desired length of password, between 8 - 128 characters");
+  let passwordLength = prompt("Enter desired length of password, between 8 - 128 characters");
   if (passwordLength < 8) {
     alert("Please choose again, password is too short!");
     generatePassword();
@@ -57,7 +70,7 @@ function generatePassword() {
   
   // password is generated
   let password = "";
-  for (let i = 0; 1 < passwordLength; i++) {
+  for (let i = 0; i < passwordLength; i++) {
   //grabs random character from the chosen inputs
   const randomCharacter = characterSet[ Math.floor(Math.random() * characterSet.length) ]
 
@@ -69,15 +82,4 @@ function generatePassword() {
   return password;
 };
 
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
