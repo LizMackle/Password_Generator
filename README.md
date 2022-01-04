@@ -15,4 +15,4 @@ To randomly generate a password that meets certain criteria, so that it can crea
 
 ## Git Hub Respository 
 
-## Published Page
+## Published Page 
