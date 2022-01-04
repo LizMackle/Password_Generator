@@ -16,3 +16,4 @@ To randomly generate a password that meets certain criteria, so that it can crea
 ## Git Hub Respository 
 
 ## Published Page 
+![Published page screenshot](https://user-images.githubusercontent.com/93589073/148010003-41d5eee7-9235-4948-90c6-20896ec8b111.PNG)
